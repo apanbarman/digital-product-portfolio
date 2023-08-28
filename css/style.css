@@ -35,3 +35,35 @@
 }
 
 /* nav style end  */
+/* banner style start */
+
+.banner-container{
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    align-items: center;
+    color: aliceblue;
+    background-image: url(/images/background.png),linear-gradient(45deg, rgb(35, 28, 28),rgb(23, 16, 16));
+}
+.banner-title{
+    font-size: 55px;
+    font-weight: bold;
+
+}
+.banner-des{
+    font-size: 25px;
+    font-weight: bold;
+   margin-top: 15px;
+   margin-bottom: 15px;
+
+}
+.btn{
+    padding: 15px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+.banner-img{
+    width: 300px;
+}
